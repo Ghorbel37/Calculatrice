@@ -13,6 +13,9 @@ public class Operation {
     }
 
     public static double division(int x, int y){
-        return (double) x / y;
+        if ( y != 0) {
+            return (double) x / y;
+        }
+        return 0;
     }
 }
