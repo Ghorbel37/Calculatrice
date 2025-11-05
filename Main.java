@@ -6,5 +6,6 @@ public class Main {
         System.out.println("Le résultat de " + a + " * " + b + " = " + resultat);
         System.out.println(a + " - " + b + " = " + Operation.soustraction(a,b));
         System.out.println(a + " + " + b + " = " + Operation.addition(a,b));
+        System.out.println(a + " / " + b + " = " + Operation.division(a,b));
     }
 }
