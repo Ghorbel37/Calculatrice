@@ -16,5 +16,6 @@ public class Main {
             System.out.println("Divsion par 0 impossible");
         }
         System.out.println("Au revoir");
+        System.out.println("Bonsoir");
     }
 }
