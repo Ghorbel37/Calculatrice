@@ -1,5 +1,7 @@
 # Calculatrice
 
+[![Build](https://github.com/Ghorbel37/Calculatrice/actions/workflows/build.yml/badge.svg)](https://github.com/Ghorbel37/Calculatrice/actions/workflows/build.yml)
+
 A small Java calculator written for a practical session ("TP") of an Agile & DevOps course. The code is intentionally simple: the exercise was about working as a team with Git (branches, merges and resolving conflicts) rather than about the calculator itself.
 
 ## What it does
@@ -43,6 +45,10 @@ JUnit 5 tests in `src/test/java`:
 
 - `OperationTest` checks each operation, including negative numbers, a decimal division and division by zero
 - `MainTest` runs `Main` and checks that it prints the output shown above
+
+## Continuous integration
+
+Every push to `main` and every pull request runs the build on GitHub Actions: compile, test, package, run the jar. The jar is attached to each run as an artifact.
 
 ## Project layout
 
