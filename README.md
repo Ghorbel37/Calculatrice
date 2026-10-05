@@ -26,11 +26,29 @@ Bonsoir
 | `multiplier(x, y)` | `x * y` |
 | `division(x, y)` | `x / y` as a `double`, or `0` when `y` is `0` |
 
-## Run it
+## Build and run
 
-With a JDK installed:
+The project uses Maven through the wrapper, so you only need a JDK 17 or later:
 
 ```bash
-javac Main.java Operation.java
-java Main
+./mvnw verify                     # compile, run the tests, build target/calculatrice.jar
+java -jar target/calculatrice.jar
+```
+
+On Windows, use `mvnw.cmd` instead of `./mvnw`.
+
+## Tests
+
+JUnit 5 tests in `src/test/java`:
+
+- `OperationTest` checks each operation, including negative numbers, a decimal division and division by zero
+- `MainTest` runs `Main` and checks that it prints the output shown above
+
+## Project layout
+
+```
+src/main/java/   Main.java, Operation.java
+src/test/java/   OperationTest.java, MainTest.java
+pom.xml          Maven build (Java 17, JUnit 5)
+mvnw, mvnw.cmd   Maven wrapper
 ```

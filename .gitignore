@@ -1,1 +1,10 @@
+# Compiled classes and Maven build output
 *.class
+target/
+
+# Editors and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
