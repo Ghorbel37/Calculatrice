@@ -58,3 +58,7 @@ src/test/java/   OperationTest.java, MainTest.java
 pom.xml          Maven build (Java 17, JUnit 5)
 mvnw, mvnw.cmd   Maven wrapper
 ```
+
+## License
+
+[MIT](LICENSE)
