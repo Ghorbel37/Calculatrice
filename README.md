@@ -1,8 +1,10 @@
 # Calculatrice
 
+*Built for an agile and DevOps course (2025).*
+
 [![Build](https://github.com/Ghorbel37/Calculatrice/actions/workflows/build.yml/badge.svg)](https://github.com/Ghorbel37/Calculatrice/actions/workflows/build.yml)
 
-A small Java calculator written for a practical session ("TP") of an Agile & DevOps course. The code is intentionally simple: the exercise was about working as a team with Git (branches, merges and resolving conflicts) rather than about the calculator itself.
+A small Java calculator written for a practical session ("TP"). The code is intentionally simple: the exercise was about working as a team with Git (branches, merges and resolving conflicts) rather than about the calculator itself.
 
 ## What it does
 
